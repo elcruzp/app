@@ -1,0 +1,93 @@
+.tabs-container {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 12px 8px;
+  border: none;
+  background: white;
+  color: #666;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+  background: #f5f5f5;
+}
+
+.tab-button.active {
+  color: #5b50e0;
+  border-bottom-color: #5b50e0;
+  font-weight: 600;
+}
+
+.tab-button ion-icon {
+  font-size: 20px;
+}
+
+.espacios-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+.espacio-card {
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.espacio-card:active {
+  transform: scale(0.98);
+}
+
+.espacio-card.disponible {
+  border-color: #22c55e;
+  background: #f0fdf4;
+}
+
+.espacio-card.ocupado {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.espacio-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.espacio-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.espacio-card p.estado {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.espacio-card.disponible p.estado {
+  color: #22c55e;
+}
+
+.espacio-card.ocupado p.estado {
+  color: #ef4444;
+}
