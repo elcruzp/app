@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "jcruz24p@gmail.com",
+      "nombre": "Juan",
+      "telefono": "3025314542",
+      "password": "$2a$08$W3xZQ6z1Ew9uAfIApx5VMez5kCO/fs0ANIn8PV2ODSalwe174kurO"
+    }
+  ],
+  "espacios": [
+    {
+      "id": 1,
+      "numero_espacio": "A1",
+      "piso": 1,
+      "tipo": "compacto",
+      "available": true
+    },
+    {
+      "id": 2,
+      "numero_espacio": "A2",
+      "piso": 1,
+      "tipo": "grande",
+      "available": true
+    },
+    {
+      "id": 3,
+      "numero_espacio": "A3",
+      "piso": 1,
+      "tipo": "compacto",
+      "available": true
+    },
+    {
+      "id": 4,
+      "numero_espacio": "A4",
+      "piso": 1,
+      "tipo": "grande",
+      "available": true
+    },
+    {
+      "id": 5,
+      "numero_espacio": "B1",
+      "piso": 2,
+      "tipo": "compacto",
+      "available": true
+    },
+    {
+      "id": 6,
+      "numero_espacio": "B2",
+      "piso": 2,
+      "tipo": "grande",
+      "available": true
+    },
+    {
+      "id": 7,
+      "numero_espacio": "B3",
+      "piso": 2,
+      "tipo": "compacto",
+      "available": true
+    },
+    {
+      "id": 8,
+      "numero_espacio": "B4",
+      "piso": 2,
+      "tipo": "grande",
+      "available": true
+    }
+  ],
+  "vehiculos": [],
+  "reservas": [
+    {
+      "id": 1,
+      "vehiculo_id": 123,
+      "espacio_id": 1,
+      "fecha_entrada": "2025-11-20T21:48:00.000Z",
+      "user_id": 1,
+      "terminado": true
+    },
+    {
+      "id": 2,
+      "vehiculo_id": 1,
+      "espacio_id": 1,
+      "fecha_entrada": "2025-11-19T09:23:00.000Z",
+      "fecha_salida": "2025-11-20T21:24:25.014Z",
+      "user_id": 1,
+      "terminado": true
+    },
+    {
+      "id": 3,
+      "vehiculo_id": 1,
+      "espacio_id": 1,
+      "fecha_entrada": "2025-11-20T21:41:00.000Z",
+      "fecha_salida": "2025-11-20T21:36:44.029Z",
+      "user_id": 1,
+      "terminado": true
+    },
+    {
+      "id": 4,
+      "vehiculo_id": 1,
+      "espacio_id": 3,
+      "fecha_entrada": "2025-11-21T21:41:00.000Z",
+      "fecha_salida": "2025-11-20T21:42:07.960Z",
+      "user_id": 1,
+      "terminado": true
+    }
+  ]
+}
